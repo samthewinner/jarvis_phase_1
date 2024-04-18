@@ -1,0 +1,79 @@
+
+    body {
+        
+      font-family: Arial, sans-serif;
+      background-color: white; /* Light grey background */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column; /* Align items in a column */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        height: 100vh; /* Set the height of the container to full viewport height */        
+        
+      }
+
+      .prompt {
+        margin-bottom: 20px; /* Add space between prompt and table */
+      }
+      
+      .prompt label {
+        font-size: 16px;
+        color: #333; /* Dark grey text color */
+        margin-right: 10px; /* Add space between label and input */
+      }
+      
+      .prompt input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ddd; /* Light grey border */
+        border-radius: 4px;
+        font-size: 16px;
+        width: 300px; /* Adjust width as needed */
+      }
+      
+      .prompt input[type="text"]:focus {
+        outline: none; /* Remove focus outline */
+        border-color: #4CAF50; /* Green border when focused */
+      }
+      
+      
+
+    table {
+      width: 70%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      border: #ddc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddc; /* Light grey border bottom */
+    }
+    th {
+      background-color: #e0e0e0; /* Slightly darker grey background for table header */
+    }
+    tr:nth-child(even) {
+      background-color: #ffffff; /* White background for even rows */
+    }
+    tr:nth-child(odd) {
+      background-color: #f2f2f2; /* Light grey background for odd rows */
+    }
+    button {
+      padding: 6px 10px;
+      border: none;
+      background-color: #4CAF50; /* Green */
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 2px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #45a049; /* Darker green on hover */
+    }
+  
